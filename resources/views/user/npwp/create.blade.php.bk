@@ -1,0 +1,66 @@
+<div class="row">
+    <div class="col-lg-12 mb-4 order-0">
+        <!-- Bootstrap Table with Header - Light -->
+        <div class="card">
+                <!-- Basic Layout & Basic with Icons -->
+              <div class="row">
+                <div class="col-xxl">
+                    <div class="card-header d-flex align-items-center justify-content-between">
+                      <h5 class="mb-0">NPWP Baru</h5>
+                      <!-- <small class="text-muted float-end">Merged input group</small> -->
+                    </div>
+                    <div class="card-body">
+						<form id="form-1" class="row needs-validation" novalidate>
+							<div class="row mb-3">
+								<div class="col-sm-6">
+									<input type="text" name="nama" id="nama" class="form-control" placeholder="Masukkan Nama">
+								</div>
+								<div class="col-sm-6">
+									<input type="text" name="npwp" id="npwp" class="form-control" placeholder="Masukkan NPWP">
+								</div>
+							</div>
+							<div class="row mb-3">
+								<div class="col-sm-6">
+									<input type="text" name="nama" id="nama" class="form-control" placeholder="Masukkan Alamat">
+								</div>
+								<div class="col-sm-6">
+									<input type="text" name="npwp" id="npwp" class="form-control" placeholder="Masukkan KLU">
+								</div>
+							</div>
+							<div class="row mb-3">
+								<div class="col-sm-6">
+									<input type="text" name="nama" id="nama" class="form-control" placeholder="Masukkan No. Telepon">
+								</div>
+								<div class="col-sm-6">
+									<input type="text" name="npwp" id="npwp" class="form-control" placeholder="Masukkan Email">
+								</div>
+							</div>
+							<div class="row mb-3">
+								<div class="col-sm-12">
+									<input type="text" name="nama" id="nama" class="form-control" placeholder="Masukkan Anggota Tim">
+								</div>
+							</div>
+							<div class="row mb-3">
+								<div class="col-sm-12 text-right">
+									<button type="submit" class="btn btn-warning">Simpan</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+</div>
+<script>
+	$(function() {
+		// $("#negara").select2();
+		// $("#jumlah_tanggungan").select2();
+		// $("#status_kepegawaian").select2();
+		// $("#tgl_berlaku").daterangepicker({
+		// 	// locale: {
+		// 	// 	f
+		// 	// }
+		// });
+	})
+</script>

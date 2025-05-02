@@ -1,0 +1,11 @@
+build
+components
+node_modules
+.DS_Store
+.sass-cache
+_site
+_config.yaml
+.idea
+
+# The GitLab pages artifacts
+public
